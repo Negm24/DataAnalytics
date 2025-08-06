@@ -349,8 +349,8 @@ function App() {
 
   const renderDashboard = () => (
     <div className="dashboard">
-      <h1>AI & Machine Learning Study Guide</h1>
-      <p className="subtitle">Organized by Lectures with Study Tools</p>
+      <h1>Data Anayltics Lectures</h1>
+      <p className="subtitle">A+ Inshallah</p>
 
       <div className="lectures-grid">
         {lectures.map((lecture) => (

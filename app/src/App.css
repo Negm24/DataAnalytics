@@ -398,7 +398,7 @@ footer {
 /* Tables */
 .table-container {
   margin-bottom: 30px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .table-container h3 {
@@ -412,6 +412,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 10px;
+  overflow-x: auto;
 }
 
 th,
