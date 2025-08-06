@@ -398,6 +398,7 @@ footer {
 /* Tables */
 .table-container {
   margin-bottom: 30px;
+  overflow-x: scroll;
 }
 
 .table-container h3 {
