@@ -650,7 +650,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>AI & ML Study Guide</h1>
+        <h1>Negm Data Analytics Study Guide</h1>
         {view !== "dashboard" && (
           <button className="home-btn" onClick={() => setView("dashboard")}>
             Home
