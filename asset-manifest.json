@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/DataAnalytics/static/css/main.f8a1f424.css",
-    "main.js": "/DataAnalytics/static/js/main.5516f2be.js",
+    "main.css": "/DataAnalytics/static/css/main.ca4c890e.css",
+    "main.js": "/DataAnalytics/static/js/main.4f693371.js",
     "static/js/453.1a16ed4e.chunk.js": "/DataAnalytics/static/js/453.1a16ed4e.chunk.js",
+    "static/media/FiveVs.png": "/DataAnalytics/static/media/FiveVs.92076081633d2d900c3e.png",
+    "static/media/TDScatterPlot.png": "/DataAnalytics/static/media/TDScatterPlot.11d9a13fec7f6aff1cc2.png",
+    "static/media/PythonDataTypes.png": "/DataAnalytics/static/media/PythonDataTypes.ab82e9a6536b318e0a3a.png",
+    "static/media/VisualizationStatistics.png": "/DataAnalytics/static/media/VisualizationStatistics.9d18ecb0559d1a9696e3.png",
+    "static/media/ScatterPlot.png": "/DataAnalytics/static/media/ScatterPlot.6af6e5b4780cf2c159c2.png",
+    "static/media/DataTrendExample.png": "/DataAnalytics/static/media/DataTrendExample.2b5e0602638f1ad0f24f.png",
+    "static/media/LinePlot.png": "/DataAnalytics/static/media/LinePlot.c8bd9f8092b4b29b3f26.png",
+    "static/media/PieChart.png": "/DataAnalytics/static/media/PieChart.ed9e482e207082310c14.png",
     "static/media/StartIndexing.png": "/DataAnalytics/static/media/StartIndexing.a9b0790c8a6a8ff5875d.png",
     "static/media/ControlFlow.png": "/DataAnalytics/static/media/ControlFlow.117c09797689fd715d95.png",
+    "static/media/BoxPlot.png": "/DataAnalytics/static/media/BoxPlot.7e78d39271c4e2cea76b.png",
+    "static/media/Histogram.png": "/DataAnalytics/static/media/Histogram.6bd2fe11b80997a87662.png",
+    "static/media/HeatMap.png": "/DataAnalytics/static/media/HeatMap.f946c12ba9269cfd7d78.png",
+    "static/media/BarChart.png": "/DataAnalytics/static/media/BarChart.e310a0c6a647c8a271fb.png",
     "index.html": "/DataAnalytics/index.html",
-    "main.f8a1f424.css.map": "/DataAnalytics/static/css/main.f8a1f424.css.map",
-    "main.5516f2be.js.map": "/DataAnalytics/static/js/main.5516f2be.js.map",
+    "main.ca4c890e.css.map": "/DataAnalytics/static/css/main.ca4c890e.css.map",
+    "main.4f693371.js.map": "/DataAnalytics/static/js/main.4f693371.js.map",
     "453.1a16ed4e.chunk.js.map": "/DataAnalytics/static/js/453.1a16ed4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8a1f424.css",
-    "static/js/main.5516f2be.js"
+    "static/css/main.ca4c890e.css",
+    "static/js/main.4f693371.js"
   ]
 }
