@@ -584,4 +584,201 @@ print(f"Rectangle area: {rect_area}")`,
       ],
     }
   ),
+  new Lecture(
+    4,
+    "Lecture 4: Introduction to Data Science",
+    "Data Visualization",
+    {
+      flashcards: [
+        {
+          front: "80% of world's data is?",
+          back: "Unstructured data",
+        },
+        {
+          front: "What are the 5 Vs of Big Data?",
+          back: "Volume, Variety, Velocity, Veracity, Value",
+        },
+        {
+          front: "What is a cloud database?",
+          back: "A database hosted on a cloud computing platform, accessible over the internet. Zay AWS, Azure, Google Cloud.",
+        },
+        {
+          front: "What is Data Visualization?",
+          back: "It is a graphical representation of data. Can be achieved with graphs, charts, and maps.",
+        },
+        {
+          front: "Visualization vs Statistics",
+          back: "Data visualization provides a more informative view of data, while statistics focuses on numerical analysis.",
+        },
+        {
+          front:
+            "What is the Data visualization library that is used to create static and interactive visualizations in Python?",
+          back: "Matplotlib",
+        },
+        {
+          front:
+            "What is the data visualization library that is based on Matplotlib and provides a high-level interface for drawing attractive statistical graphics?",
+          back: "Seaborn",
+        },
+      ],
+      tables: [
+        {
+          title: "5 Vs of Big Data",
+          headers: ["V", "Description"],
+          rows: [
+            ["Volume", "Amount of data generated and stored"],
+            ["Variety", "Different types of data (structured, unstructured)"],
+            ["Velocity", "Speed at which data is generated and processed"],
+            ["Veracity", "Trustworthiness and quality of data"],
+            ["Value", "Importance and usefulness of data"],
+          ],
+        },
+        {
+          title: "Visualization vs Statistics",
+          headers: ["Aspect", "Visualization", "Statistics"],
+          rows: [
+            [
+              "Purpose",
+              "Graphical representation of data",
+              "Numerical analysis",
+            ],
+            [
+              "Focuses on",
+              "Patterns and trends",
+              "Data distribution and relationships",
+            ],
+            ["Tools", "Graphs, charts, maps", "Statistical tests, models"],
+          ],
+        },
+        {
+          title: "Data Types",
+          headers: ["Type", "Description", "Example"],
+          rows: [
+            ["Nominal", "Categorical data without order", "Colors, names"],
+            [
+              "Ordinal",
+              "Categorical data with order",
+              "Ratings (low, medium, high)",
+            ],
+            [
+              "Interval",
+              "Numerical data with equal intervals (0 is not the lowest point)",
+              "Temperature in Celsius",
+            ],
+            [
+              "Ratio",
+              "Numerical data with a true zero point (0 is the absolute lowest value)",
+              "Height, weight",
+            ],
+          ],
+        },
+        {
+          title: "Data Quality Dimensions",
+          headers: ["Dimension", "Description"],
+          rows: [
+            ["Accuracy", "Correctness of data"],
+            ["Completeness", "Extent to which data is complete"],
+            ["Consistency", "Uniformity of data across datasets"],
+            ["Timeliness", "Relevance of data to current time"],
+            ["Validity", "Data conforms to defined rules or formats"],
+            ["Currency", "Data is up-to-date"],
+            ["Integrity", "Data is reliable and trustworthy"],
+          ],
+        },
+        {
+          title: "Multi-Dimentional Data",
+          headers: ["Dimension", "Example"],
+          rows: [
+            ["1-Dimensional", "Bar charts, Pie charts"],
+            [
+              "2-Dimensional",
+              "Scatter plots, Heatmaps, line plots, histograms, Box plots",
+            ],
+            ["3-Dimensional", "3D scatter plots, Surface plots"],
+          ],
+        },
+      ],
+      definitions: [
+        {
+          term: "Data Visualization",
+          definition:
+            "The graphical representation of data to help understand patterns, trends, and insights.",
+        },
+        {
+          term: "Data Trend",
+          definition:
+            "A pattern or tendency in data over time, showing how values change.",
+        },
+      ],
+      examples: [
+        {
+          title: "Bar Chart Example",
+          content: `# Bar chart example using Matplotlib
+                  import matplotlib.pyplot as plt
+                  data = [10, 20, 15, 25]
+                  labels = ['A', 'B', 'C', 'D']
+                  plt.bar(labels, data)
+                  plt.xlabel('Categories')
+                  plt.ylabel('Values')
+                  plt.title('Bar Chart Example')
+                  plt.show()`,
+        },
+        {
+          title: "Data Trend Example",
+          content: "DataTrendExample.png",
+        },
+        {
+          title: "1-Dimentional Data Bar Chart",
+          content: "BarChart.png",
+        },
+        {
+          title: "1-Dimentional Data Pie Chart",
+          content: "PieChart.png",
+        },
+        {
+          title: "2-Dimentional Line Plot",
+          content: "LinePlot.png",
+        },
+        {
+          title: "2-Dimentional Scatter Plot",
+          content: "ScatterPlot.png",
+        },
+        {
+          title: "2-Dimentional Heatmap matrix",
+          content: "HeatMap.png",
+        },
+        {
+          title: "2-Dimentional Histogram",
+          content: "Histogram.png",
+        },
+        {
+          title: "2-Dimentional Box Plot",
+          content: "BoxPlot.png",
+        },
+        {
+          title: "3-Dimentional Scatter Plot",
+          content: "TDScatterPlot.png",
+        },
+        {
+          title: "Data Visualization libraries",
+          content:
+            "Numpy, Matplotlib, pytest, pandas, PyPy, Scikit-learn, Jupyter, Seaborn, Bokeh, xtensor, caterva",
+        },
+      ],
+      diagrams: [
+        {
+          title: "The 5 Vs",
+          content: "FiveVs.png",
+        },
+        {
+          title: "Python Data Types",
+          content: "PythonDataTypes.png",
+        },
+        {
+          title: "Visualization vs Statistics",
+          content: "VisualizationStatistics.png",
+        },
+      ],
+    }
+  ),
 ];

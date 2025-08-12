@@ -322,6 +322,12 @@ footer {
   perspective: 1000px;
 }
 
+.flashcard-container .code-snippet {
+  padding: 10px 0;
+  overflow-x: auto;
+  margin: 10px 0;
+}
+
 .flashcard {
   position: relative;
   width: 100%;
@@ -485,6 +491,14 @@ dd {
   padding: 15px;
   border-radius: 8px;
   border-left: 4px solid var(--secondary);
+}
+
+.example-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--gray);
 }
 
 /* Diagrams */

@@ -8,6 +8,9 @@ export default class Lecture {
   }
 
   getCategoryContent(category) {
-    return this.categories[category];
+    if (this.categories[category]) {
+      return this.categories[category];
+    }
+    return "404";
   }
 }

@@ -1,12 +1,15 @@
 // src/components/DiagramsView.js
 import React from "react";
+
 // Import images from lecture 3
 import ControlFlow from "../images/ControlFlow.png";
 import Loop from "../images/Loop.png";
 import StringIndexing from "../images/StartIndexing.png";
 
 // Import images from lecture 4
-// ...
+import FiveVs from "../images/FiveVs.png";
+import PythonDataTypes from "../images/PythonDataTypes.png";
+import VisualizationStatistics from "../images/VisualizationStatistics.png";
 
 const DiagramsView = ({ diagrams }) => {
   // Create a mapping of image filenames to imported images
@@ -14,6 +17,9 @@ const DiagramsView = ({ diagrams }) => {
     "ControlFlow.png": ControlFlow,
     "Loop.png": Loop,
     "StartIndexing.png": StringIndexing,
+    "FiveVs.png": FiveVs,
+    "PythonDataTypes.png": PythonDataTypes,
+    "VisualizationStatistics.png": VisualizationStatistics,
   };
 
   return (

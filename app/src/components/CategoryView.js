@@ -6,6 +6,7 @@ import DefinitionsView from "./DefinitionsView";
 import ExamplesView from "./ExamplesView";
 import DiagramsView from "./DiagramsView";
 import AllContentView from "./AllContentView";
+import NotFound from "./NotFound";
 
 const CategoryView = ({ lecture, category, onBack }) => {
   const content = lecture.getCategoryContent(category);
@@ -19,6 +20,9 @@ const CategoryView = ({ lecture, category, onBack }) => {
     diagrams: "Diagrams",
     allContent: "All Content",
   };
+
+  if (content === "404") {
+  }
 
   const renderContent = () => {
     switch (category) {
@@ -49,7 +53,15 @@ const CategoryView = ({ lecture, category, onBack }) => {
         <div className="lecture-info">{lecture.title}</div>
       </div>
 
-      <div className="category-content">{renderContent()}</div>
+      {content !== "404" ? (
+        <div className="category-content">{renderContent()}</div>
+      ) : (
+        <NotFound
+          lectureTitle={lecture.title}
+          category={category}
+          onBack={onBack}
+        />
+      )}
     </div>
   );
 };
